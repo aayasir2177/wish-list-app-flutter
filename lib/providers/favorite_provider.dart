@@ -13,7 +13,6 @@ class FavoriteProvider with ChangeNotifier {
       _selectedItems.add(word);
     }
 
-    print(_selectedItems);
     notifyListeners();
   }
 
